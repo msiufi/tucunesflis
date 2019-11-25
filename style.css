@@ -31,6 +31,24 @@ nav a {
     color:rgb(204, 32, 32) !important;
 }
 
+.bs-example { 
+    margin: auto; 
+    width: 25%; 
+} 
+  
+.dropdown:hover .dropdown-menu { 
+    display: block !important; 
+}  
+
+ul li:hover ul.dropdown{
+    display: block; /* Display the dropdown */
+}
+
+dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color:rgb(56, 54, 54);
+}
 footer {
     height: 100px;
     background-color: rgb(3, 3, 3);
