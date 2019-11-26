@@ -64,6 +64,43 @@ nav a {
     color:#fff;
 }
 
+.close{
+    color:#fff !important;
+}
+
+@media screen and (min-width: 1141px) {
+    iframe {
+        width: 800px;
+        height: 600px;
+    }
+    }
+
+@media screen and (max-width: 1140px) {
+    iframe {
+        width: 750px;
+        height: 600px;
+    }
+    }
+@media screen and (max-width: 990px) {
+        iframe {
+            width: 450px;
+            height: 450px;
+        }
+        }
+
+@media screen and (max-width: 720px) {
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+    }
+
+@media screen and (max-width: 540px) {
+    iframe {
+        width: 250px;
+        height: 250px;
+    }
+    }
 footer {
     height: 100px;
     background-color: rgb(3, 3, 3);
