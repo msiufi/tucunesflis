@@ -14,6 +14,10 @@ div > nav {
     position: fixed;
 }
 
+.hamburguesa{
+    background-color: grey !important;
+}
+
 .bg-light {
     background-color: rgba(0, 0, 0, 0.096) !important;
     color: #fff;

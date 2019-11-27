@@ -21,14 +21,13 @@
     <title>Tucuflix</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#"
             ><img src="img/Letralogo-2.png" alt="logo"
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler hamburguesa"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -115,8 +114,7 @@
             </form>
           </div>
         </nav>
-      </div>
-    </header>
+    
     <div class="container">
       <div class="row">
         <div class="estrenos col-sm-12 col-md-6 col-lg-8 col-xl-9">
@@ -132,12 +130,18 @@
           <a href="#">
             <img src="img/matrix.jpg" alt="matrix" />
           </a>
-          <a href="#"><img src="img/aeon.jpg" alt="aeon"></a>
-          <a href="#"><img src="img/eraseunavez.jpg" alt="erase"></a>
-          <a type="link" class="" data-toggle="modal" data-target="#modalJoker"><img src="img/Joker---.jpg" alt="joker"></a>
-          <a type="link" class="" data-toggle="modal" data-target="#exampleModal"><img src="img/Frozen.jpg" alt="frozen"></a>
-
-          
+          <a href="#"><img src="img/aeon.jpg" alt="aeon"/></a>
+          <a href="#"><img src="img/eraseunavez.jpg" alt="erase"/></a>
+          <a type="link" class="" data-toggle="modal" data-target="#modalJoker"
+            ><img src="img/Joker---.jpg" alt="joker"
+          /></a>
+          <a
+            type="link"
+            class=""
+            data-toggle="modal"
+            data-target="#exampleModal"
+            ><img src="img/Frozen.jpg" alt="frozen"
+          /></a>
         </div>
       </div>
     </div>
@@ -160,46 +164,96 @@
     </footer>
 
     <!-- Modal Frozen-->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal1" role="document">
-      <div class="modal-content ">
-        <div class="modal-header modal1">
-          <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body modal1 text-center">
-            <iframe  src="https://www.youtube.com/embed/R8TR3cGKees" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer modal1">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-dark" data-url="#">Ir a la pelicula</button>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal1" role="document">
+        <div class="modal-content ">
+          <div class="modal-header modal1">
+            <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body modal1 text-center">
+            <iframe
+              src="https://www.youtube.com/embed/R8TR3cGKees"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer modal1">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-dark" data-url="#">
+              Ir a la pelicula
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Modal Joker-->
-<div class="modal fade" id="modalJoker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal1" role="document">
-      <div class="modal-content ">
-        <div class="modal-header modal1">
-          <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body modal1 text-center">
-            <iframe  src="https://www.youtube.com/embed/IfB65qjLbwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer modal1">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-dark" data-url="#">Ir a la pelicula</button>
+    <!-- Modal Joker-->
+    <div
+      class="modal fade"
+      id="modalJoker"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal1" role="document">
+        <div class="modal-content ">
+          <div class="modal-header modal1">
+            <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body modal1 text-center">
+            <iframe
+              src="https://www.youtube.com/embed/IfB65qjLbwc"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer modal1">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-dark" data-url="#">
+              Ir a la pelicula
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
