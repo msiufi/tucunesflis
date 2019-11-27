@@ -130,3 +130,12 @@ color: black;
 text-decoration: none;
 margin: 10px;
 }
+
+
+.red {
+    color:#A80404;
+}
+
+.bg-red {
+    background-color:#A80404;
+}
