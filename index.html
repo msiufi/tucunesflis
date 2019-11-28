@@ -1,259 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CssS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="img/Letralogo-1.png" type="image/x-icon" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Tucuflix</title>
-  </head>
-  <body>
-    
-    
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"
-            ><img src="img/Letralogo-2.png" alt="logo"
-          /></a>
-          <button
-            class="navbar-toggler hamburguesa"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- Bootstrap CssS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/Letralogo-1.png" type="image/x-icon" />
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Generos
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Accion</a>
-                  <a class="dropdown-item" href="#">Aventura</a>
-                  <a class="dropdown-item" href="#">Biografico</a>
-                  <a class="dropdown-item" href="#">Drama</a>
-                  <a class="dropdown-item" href="#">Terror</a>
-                  <a class="dropdown-item" href="#">Animado</a>
-                  <a class="dropdown-item" href="#">Comedia</a>
-                  <a class="dropdown-item" href="#">Familiar</a>
-                  <a class="dropdown-item" href="#">Ciencia Ficcion</a>
-                  <a class="dropdown-item" href="#">Fantasia</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Canales en vivo</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Peliculas
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Estreno</a>
-                  <a class="dropdown-item" href="#">Ranking</a>
-                  <a class="dropdown-item" href="#">Mas Vistas</a>
-                  <a class="dropdown-item" href="#">Peliculas</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Disabled</a
-                >
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input
-                class="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
-                Search
-              </button>
-            </form>
+  <title>Tucuflix</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="img/Letralogo-2.png" alt="logo" /></a>
+    <button class="navbar-toggler hamburguesa" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Generos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Accion</a>
+            <a class="dropdown-item" href="#">Aventura</a>
+            <a class="dropdown-item" href="#">Biografico</a>
+            <a class="dropdown-item" href="#">Drama</a>
+            <a class="dropdown-item" href="#">Terror</a>
+            <a class="dropdown-item" href="#">Animado</a>
+            <a class="dropdown-item" href="#">Comedia</a>
+            <a class="dropdown-item" href="#">Familiar</a>
+            <a class="dropdown-item" href="#">Ciencia Ficcion</a>
+            <a class="dropdown-item" href="#">Fantasia</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Canales en vivo</a>
           </div>
-        </nav>
-    
-    <div class="container">
-      <div class="row">
-        <div class="estrenos  col-md-9 col-lg-9 col-xl-9">
-          <a href="#">
-            <img src="img/doctorsueno_poster.jpg" alt="erase" />
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Peliculas
           </a>
-          <a href="#">
-            <img src="img/objwash.jpg" alt="objwash" />
-          </a>
-          <a href="#">
-            <img src="img/rambo.jpg" alt="rambo" />
-          </a>
-          <a href="#">
-            <img src="img/matrix.jpg" alt="matrix" />
-          </a>
-          <a href="#"><img src="img/aeon.jpg" alt="aeon"/></a>
-          <a href="#"><img src="img/eraseunavez.jpg" alt="erase"/></a>
-          <a type="link" class="" data-toggle="modal" data-target="#modalJoker"
-            ><img src="img/Joker---.jpg" alt="joker"
-          /></a>
-          <a
-            type="link"
-            class=""
-            data-toggle="modal"
-            data-target="#exampleModal"
-            ><img src="img/Frozen.jpg" alt="frozen"
-          /></a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Estreno</a>
+            <a class="dropdown-item" href="#">Ranking</a>
+            <a class="dropdown-item" href="#">Mas Vistas</a>
+            <a class="dropdown-item" href="#">Peliculas</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="estrenos  col-md-9 col-lg-9 col-xl-9">
+        <a href="#">
+          <img src="img/doctorsueno_poster.jpg" alt="erase" />
+        </a>
+        <a href="#">
+          <img src="img/objwash.jpg" alt="objwash" />
+        </a>
+        <a href="#">
+          <img src="img/rambo.jpg" alt="rambo" />
+        </a>
+        <a href="#">
+          <img src="img/matrix.jpg" alt="matrix" />
+        </a>
+        <a href="#"><img src="img/aeon.jpg" alt="aeon" /></a>
+        <a href="#"><img src="img/eraseunavez.jpg" alt="erase" /></a>
+        <a type="link" class="" data-toggle="modal" data-target="#modalJoker"><img src="img/Joker---.jpg"
+            alt="joker" /></a>
+        <a type="link" class="" data-toggle="modal" data-target="#exampleModal"><img src="img/Frozen.jpg"
+            alt="frozen" /></a>
+      </div>
+      <aside class="col-3">
+        <div class="texto btn-outline-danger d-flex justify-content-left red">
+          <h5>Próximamente...</h5>
         </div>
-        <aside class="col-3">
-            <div class="texto btn-outline-danger d-flex justify-content-left red">
-                <h5>Próximamente...</h5>
+        <div class="imagen ">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ma-poster-pelicula-blumhouse-1550047702.jpg?crop=1xw:1xh;center,top&resize=480:*"
+            alt="" srcset="" class="w-100">
+        </div>
+
+        <hr>
+        <div class=" texto2  d-flex justify-content-around rounded p-1 mb-2 bg-red  text-white">
+          <h6>FilTRAR POR IDIOMA</h6>
+        </div>
+        <div class="BOTON  d-flex justify-content-around">
+          <a href="http://"><img src="https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/latino.svg" alt=""
+              srcset=""></a>
+          <a href="http://"><img src="https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/espana.svg" alt=""
+              srcset=""></a>
+          <a href="http://"><img src="https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/subti.svg"
+              alt=""></a>
+        </div>
+        <hr>
+        <div class="texto3  d-flex justify-content-around rounded p-1 mb-2   bg-red text-white red">
+          <h6>TOPS ESTRENOS</h6>
+        </div>
+        <hr>
+        <div class="cartelera">
+          <div class="container">
+            <div class="row">
+              <div class="col-5 imagen">
+                <div class="card bg-dark text-white">
+                  <img class="card-img" src="http://es.web.img2.acsta.net/c_215_290/pictures/19/09/16/18/04/3205974.jpg"
+                    alt="Card image" class="w-20">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title"></h5>
+                  </div>
+                </div>
+                <hr>
               </div>
-          <div class="imagen ">
-              <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ma-poster-pelicula-blumhouse-1550047702.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="" srcset="" class="w-100">
-          </div>
-          
-          <hr>
-          <div class=" texto2  d-flex justify-content-around rounded p-1 mb-2 bg-red  text-white">
-            <h6>FilTRAR POR IDIOMA</h6>
-          </div>
-          <div class="BOTON  d-flex justify-content-around">
-            <a href="http://"><img src="https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/latino.svg" alt="" srcset=""></a>
-            <a href="http://"><img src="https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/espana.svg" alt="" srcset=""></a>
-          <a href="http://"><img src="https://cuevana3.io/wp-content/themes/cuevana3/public/img/cnt/subti.svg" alt=""></a>
-          </div>
-          <hr>
-          <div class="texto3  d-flex justify-content-around rounded p-1 mb-2   bg-red text-white red">
-              <h6>TOPS ESTRENOS</h6>
-          </div>
-          <hr>
-          <div class="cartelera">
-            <div class="container">
-              <div class="row">
-                <div class="col-5 imagen">
+              <div class="col-7 btn-outline-danger">
+                <a class="blank " href="http://">El IRLANDÉS:
+                  <hr>
+                  4.15 3h 2m 2019  </a>
+              </div>
+            
+              <div class="container">
+                <div class="row">
+                  <div class="col-5 imagen">
                     <div class="card bg-dark text-white">
-                        <img class="card-img" src="http://es.web.img2.acsta.net/c_215_290/pictures/19/09/16/18/04/3205974.jpg" alt="Card image" class="w-20">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title"></h5>
-                        </div>
+                      <img class="card-img"
+                        src=http://2.bp.blogspot.com/-oqMZwmfPNIw/XOXO3G4OEqI/AAAAAAABPuk/R7p8waOkNxArG9w5ET9QggIljCHFlQh_ACK4BGAYYCw/s1600/EL_BAZAR_DEL_ESPECTACULO-22_05_2019_19_34_500001-771250.jpeg
+                        alt="Card image" class="w-20">
+                      <div class="card-img-overlay">
+                        <h5 class="card-title"></h5>
                       </div>
-                </div>
-                <div class="col-7 btn-outline-danger">
-                  <a class="red" href="http://">El Irlandes: 4.15/5</a>
-                </div>
-               <hr>
-
-
-                <div class="container">
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="col-7 btn-outline-danger">
+                    <a class="blank" href="http://"> ALADDÍN:
+                      <hr>
+                      3.15 6h 2m 2019 
+                     </a>
+                  </div>
+                  <div class="container">
                     <div class="row">
                       <div class="col-5 imagen">
-                          <div class="card bg-dark text-white">
-                              <img class="card-img" src=http://2.bp.blogspot.com/-oqMZwmfPNIw/XOXO3G4OEqI/AAAAAAABPuk/R7p8waOkNxArG9w5ET9QggIljCHFlQh_ACK4BGAYYCw/s1600/EL_BAZAR_DEL_ESPECTACULO-22_05_2019_19_34_500001-771250.jpeg alt="Card image" class="w-20">
+                        <div class="card bg-dark text-white">
+                          <img class="card-img" src="https://cd.cinescape.com.pe/cinescape-325x457-184340.jpg"
+                            class="w-20">
+                          <div class="card-img-overlay">
+                            <h5 class="card-title"></h5>
+
+                          </div>
+                        </div>
+                          <hr>
+                      </div>
+                      <div class="col-7 btn-outline-danger">
+                        <a class="blank" href="http://">GUARDIANES DE LA BAHÍA:
+                          
+                          3.15 6h 2m 2019
+                        </a>
+                      </div>
+                      <hr>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-5 imagen">
+                            <div class="card bg-dark text-white">
+                              <img class="card-img"
+                                src="https://www.procinal.com.co/img/movies/malefica_duena_del_mal_.jpg"
+                                class="w-20">
                               <div class="card-img-overlay">
                                 <h5 class="card-title"></h5>
 
                               </div>
-                            </div>                            
-                      </div>
-                      <div class="col-7 btn-outline-danger">
-                        <a class="red" href="http://">El Irlandes: es kjhkjhkjhk hkjh</a>
-                      </div>
-                      <hr>
-                   
-                      <div class="container">
-                          <div class="row">
-                            <div class="col-5 imagen">
-                                <div class="card bg-dark text-white">
-                                    <img class="card-img" src="https://cd.cinescape.com.pe/cinescape-325x457-184340.jpg" class="w-20">
+                            </div>
+                            <hr>
+                          </div>
+                          <div class="col-7 btn-outline-danger">
+                            <a class="blank" href="http://"> MALÉFICA:
+                              <hr>
+                              4.15 3h 2m 2019 
+                          </div>
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          
+                          <div class="container">
+                              <div class="row">
+                                <div class="col-5 imagen">
+                                  <div class="card bg-dark text-white">
+                                    <img class="card-img"
+                                      src=http://2.bp.blogspot.com/-oqMZwmfPNIw/XOXO3G4OEqI/AAAAAAABPuk/R7p8waOkNxArG9w5ET9QggIljCHFlQh_ACK4BGAYYCw/s1600/EL_BAZAR_DEL_ESPECTACULO-22_05_2019_19_34_500001-771250.jpeg
+                                      alt="Card image" class="w-20">
                                     <div class="card-img-overlay">
                                       <h5 class="card-title"></h5>
-                                    
                                     </div>
-                                  </div>
-                                  
-                            </div>
-                            <div class="col-7 btn-outline-danger">
-                              <a class="red" href="http://">El Irlandes: es kjhkjhkjhk hkjh</a>
-                            </div>
-                           <hr>
-                            <div class="container">
-                                <div class="row">
-                                  <div class="col-5 imagen">
-                                      <div class="card bg-dark text-white">
-                                          <img class="card-img" src="https://as.com/epik/imagenes/2019/08/24/portada/1566636239_486788_1566636370_sumario_normal.jpg" class="w-20">
-                                          <div class="card-img-overlay">
-                                            <h5 class="card-title"></h5>
-                                          
-                                          </div>
-                                        </div>
-                                        
-                                  </div>
-                                  <div class="col-7 btn-outline-danger">
-                                    <a class="red" href="http://">El Irlandes: es kjhkjhkjhk hkjh</a>
                                   </div>
                                   <hr>
-                      <div class="container">
-                          <div class="row">
-                            <div class="col-5 imagen">
-                                <div class="card bg-dark text-white">
-                                    <img class="card-img" src="https://imagenes.gatotv.com/categorias/peliculas/posters/amigos_por_siempre_2019.jpg" class="w-20">
+                                </div>
+                                <div class="col-7 btn-outline-danger">
+                                  <a class="blank" href="http://"> ALADDÍN:
+                                    <hr>
+                                    3.15 6h 2m 2019 
+                                   </a>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+
+
+
+                              <hr>
+                            <div class="texto3  d-flex justify-content-around rounded p-1 mb-2   bg-red text-white red">
+                              <h6>PELICULAS DESTACADAS</h6>
+                            </div>
+                            <hr>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-5 imagen">
+                                  <div class="card bg-dark text-white">
+                                    <img class="card-img"
+                                      src="img/toy.jpg"
+                                      class="w-20">
                                     <div class="card-img-overlay">
                                       <h5 class="card-title"></h5>
-                                    
+
                                     </div>
                                   </div>
-                                  
-                            </div>
-                            <div class="col-7 btn-outline-danger">
-                              <a class="red" href="http://">El Irlandes: es kjhkjhkjhk hkjh</a>
-                            </div>
-                
-              </div>
-              <hr>
-              <div class="texto3  d-flex justify-content-around rounded p-1 mb-2   bg-red text-white red">
-                  <h6>TOPS ESTRENOS</h6>
-              </div>
+                                  <hr>
+                                </div>
+                                <div class="col-7 btn-outline-danger">
+                                  <a class="blank" href="http://">TOY STORY 4:
+                                    <hr>
+                                    3.15 6h 2m 2019
+                                  </a>
+                                </div>
+                                <div class="container">
+                                  <div class="row">
+                                    <div class="col-5 imagen">
+                                      <div class="card bg-dark text-white">
+                                        <img class="card-img"
+                                          src="img/nemo.jpg" class="w-20">
+                                        <div class="card-img-overlay">
+                                          <h5 class="card-title"></h5>
+
+                                        </div>
+                                      </div>
+                                      <hr>
+                                    </div>
+                                    <div class="col-7 btn-outline-danger">
+                                      <a class="blank" href="http://">BUSCANDO A NEMO:
+                                      <hr>
+                                        3.15 6h 2m 2019
+                                      </a>
+                                    </div>
+                                    <div class="container">
+                                      <div class="row">
+                                        <div class="col-5 imagen">
+                                          <div class="card bg-dark text-white">
+                                            <img class="card-img"
+                                              src="https://images-na.ssl-images-amazon.com/images/I/810JrzmKI9L._SY445_.jpg"
+                                              class="w-20">
+                                            <div class="card-img-overlay">
+                                              <h5 class="card-title"></h5>
+                                            </div>
+                                          </div>
+                                         <hr>
+                                        </div>
+                                        <div class="col-7 btn-outline-danger">
+                                          <a class="blank" href="http://">DAMAS EN GUERRA:
+                                            <hr>
+                                            3.15 6h 2m 2019</a>
+                                        </div>
+                                        <div class="container">
+                                          <div class="row">
+                                            <div class="col-5 imagen">
+                                              <div class="card bg-dark text-white">
+                                                <img class="card-img"
+                                                  src="img/EL_BAZAR_DEL_ESPECTACULO-14_07_2019_16_31_480003-785425.jpeg">
+                                                <div class="card-img-overlay">
+                                                  <h5 class="card-title"></h5>
+                                                </div>
+                                              </div>
+                                             <hr>
+                                            </div>
+                                            <div class="col-7 btn-outline-danger">
+                                              <a class="blank" href="http://">El REY LEON:
+                                              <hr>  3.15 6h 2m 2019 </a>
+                                            </div>
+                                            <div class="container">
+                                              <div class="row">
+                                                <div class="col-5 imagen">
+                                                  <div class="card bg-dark text-white">
+                                                    <img class="card-img"
+                                                      src="http://www.captiongroup.tv/wp-content/uploads/2019/02/portada-m3.jpg"
+                                                      class="w-20">
+                                                    <div class="card-img-overlay">
+                                                      <h5 class="card-title"></h5>
+                                                    </div>
+                                                  </div>
+                                                  <hr>
+                                                </div>
+                                                <div class="col-7 btn-outline-danger">
+                                                  <a class="red" href="http://">El Irlandes: es kjhkjhkjhk hkjh</a>
+                                                </div>
+                                                <div class="container">
+                                                  <div class="row">
+                                                    <div class="col-5 imagen">
+                                                      <div class="card bg-dark text-white">
+                                                        <img class="card-img"
+                                                          src="https://vignette.wikia.nocookie.net/doblaje/images/f/fb/Un_esp%C3%ADa_y_medio.jpg/revision/latest?cb=20160609151255&path-prefix=es"
+                                                          class="w-20">
+                                                        <div class="card-img-overlay">
+                                                          <h5 class="card-title"></h5>
+                                                        </div>
+                                                      </div>
+                                                     <hr>
+                                                    </div>
+                                                    <div class="col-7 btn-outline-danger">
+                                                      <a class="red" href="http://">El Irlandes: es kjhkjhkjhk hkjh</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <hr>
+                                              <div
+                                                class="texto3  d-flex justify-content-around rounded p-1 mb-4  bg-red text-white red">
+                                                <h6>USUARIOS DESTACADOS</h6>
+                                              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-4 w-20">
+<a href="http://"> <img src="img/image (2).png" alt="" srcset="" ></a>
+
+
+
             </div>
+            <div class="col-8">peliculas</div>
           </div>
+        </div>
+        
 
 
 
@@ -261,137 +407,110 @@
 
 
 
-          </div>
-          
-        </aside>
-    
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </aside>
+
     </div>
-    <footer>
-      <div class="redes ">
-        <a href="# ">
-          <img src="img/facebooklogo.png " alt=" " />
-        </a>
+  </div>
+  <footer>
+    <div class="redes ">
+      <a href="# ">
+        <img src="img/facebooklogo.png " alt=" " />
+      </a>
 
-        <a href="# ">
-          <img src="img/instagramlogo.png " alt=" " />
-        </a>
+      <a href="# ">
+        <img src="img/instagramlogo.png " alt=" " />
+      </a>
 
-        <a href="# ">
-          <img src="img/twitterlogo.png" alt=" " />
-        </a>
-      </div>
+      <a href="# ">
+        <img src="img/twitterlogo.png" alt=" " />
+      </a>
+    </div>
 
-      <p>Copyright &copy; 2019 PC SHOP. All Rights Reserved.</p>
-    </footer>
+    <p>Copyright &copy; 2019 PC SHOP. All Rights Reserved.</p>
+  </footer>
 
-    <!-- Modal Frozen-->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl modal1" role="document">
-        <div class="modal-content ">
-          <div class="modal-header modal1">
-            <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body modal1 text-center">
-            <iframe
-              src="https://www.youtube.com/embed/R8TR3cGKees"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="modal-footer modal1">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Cerrar
-            </button>
-            <button type="button" class="btn btn-dark" data-url="#">
-              Ir a la pelicula
-            </button>
-          </div>
+  <!-- Modal Frozen-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal1" role="document">
+      <div class="modal-content ">
+        <div class="modal-header modal1">
+          <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal1 text-center">
+          <iframe src="https://www.youtube.com/embed/R8TR3cGKees" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer modal1">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Cerrar
+          </button>
+          <button type="button" class="btn btn-dark" data-url="#">
+            Ir a la pelicula
+          </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modal Joker-->
-    <div
-      class="modal fade"
-      id="modalJoker"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl modal1" role="document">
-        <div class="modal-content ">
-          <div class="modal-header modal1">
-            <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body modal1 text-center">
-            <iframe
-              src="https://www.youtube.com/embed/IfB65qjLbwc"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="modal-footer modal1">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Cerrar
-            </button>
-            <button type="button" class="btn btn-dark" data-url="#">
-              Ir a la pelicula
-            </button>
-          </div>
+  <!-- Modal Joker-->
+  <div class="modal fade" id="modalJoker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal1" role="document">
+      <div class="modal-content ">
+        <div class="modal-header modal1">
+          <h5 class="modal-title" id="exampleModalLabel">Trailer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal1 text-center">
+          <iframe src="https://www.youtube.com/embed/IfB65qjLbwc" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer modal1">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Cerrar
+          </button>
+          <button type="button" class="btn btn-dark" data-url="#">
+            Ir a la pelicula
+          </button>
         </div>
       </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
