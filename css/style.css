@@ -1,12 +1,15 @@
 @import url('info.css');
 
-
+:root {
+    --font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --color: white;
+  }
 
 body{
     margin:0;
     padding: 0;
     background-color: #000;
-    
+    font-family: var (--font-family);
 }
 
 header{
