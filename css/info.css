@@ -1,0 +1,30 @@
+#info {
+    
+    color: #fff;
+    text-align: center;
+    
+    margin: -7px;
+}
+
+.info-title{
+    text-align: left;
+}
+
+
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+.info-pol {
+    margin: 20px;
+}
+.info-pol img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #000;
+
+}
