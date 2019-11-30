@@ -1,18 +1,29 @@
 @import url('info.css');
+@import url('card.css');
+@import url('footer.css');
+@import url('trailer.css');
+@import url('carousel-peq.css');
+@import url('btn-up.css');
 
+:root{
+    --font-family: 'Signika', sans-serif;
+}
 
 
 body{
     margin:0;
     padding: 0;
     background-color: #000;
+    font-family: var(--font-family);
     
 }
 
 header{
     display:flex;
     justify-content: center;
+   
 }
+
 
 div > nav {
     margin-top:10px;
@@ -26,6 +37,8 @@ div > nav {
 .bg-light {
     background-color: rgba(0, 0, 0, 0.096) !important;
     color: #fff;
+    border-bottom: red 0.5px solid;
+    
 }
 
 nav a {
@@ -34,6 +47,19 @@ nav a {
 
 .dropdown-menu{
     background-color: rgba(0, 0, 0, 0.671) !important;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
 }
 
 .navbar-brand{
@@ -68,196 +94,24 @@ nav a {
 	}
 }
 
-.modal1{
+/*.modal1{
     background-color: #000;
     color:#fff;
 }
 
 .close{
     color:#fff !important;
-}
-
-@media screen and (min-width: 1141px) {
-    iframe {
-        width: 800px;
-        height: 600px;
-    }
-    }
-
-@media screen and (max-width: 1140px) {
-    iframe {
-        width: 750px;
-        height: 600px;
-    }
-    }
-@media screen and (max-width: 990px) {
-        iframe {
-            width: 450px;
-            height: 450px;
-        }
-        }
-
-@media screen and (max-width: 720px) {
-    iframe {
-        width: 350px;
-        height: 350px;
-    }
-    }
-
-@media screen and (max-width: 540px) {
-    iframe {
-        width: 250px;
-        height: 250px;
-    }
-    }
-footer {
-    height: 100px;
-    background-color: rgb(3, 3, 3);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-footer div a img{
-    
-    padding: 0px;
-    margin: 0px;
-    border-radius: 50%;
-    margin:10px;
-    width: 30px;
-    height: 30px;
-}
+}*/
 
 
-footer a {
-color: black;
-text-decoration: none;
-margin: 10px;
-}
-/* ASADASD */
+
 
 h2{
     text-align:center;
     padding: 20px;
   }
-  /* Slider */
-  
-  .slick-slide {
-      margin: 0px 20px;
-  }
-  
-  .slick-slide img {
-      width: 100%;
-  }
-  
-  .slick-slider
-  {
-      position: relative;
-      display: block;
-      box-sizing: border-box;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-              user-select: none;
-      -webkit-touch-callout: none;
-      -khtml-user-select: none;
-      -ms-touch-action: pan-y;
-          touch-action: pan-y;
-      -webkit-tap-highlight-color: transparent;
-  }
-  
-  .slick-list
-  {
-      position: relative;
-      display: block;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-  }
-  .slick-list:focus
-  {
-      outline: none;
-  }
-  .slick-list.dragging
-  {
-      cursor: pointer;
-      cursor: hand;
-  }
-  
-  .slick-slider .slick-track,
-  .slick-slider .slick-list
-  {
-      -webkit-transform: translate3d(0, 0, 0);
-         -moz-transform: translate3d(0, 0, 0);
-          -ms-transform: translate3d(0, 0, 0);
-           -o-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-  }
-  
-  .slick-track
-  {
-      position: relative;
-      top: 0;
-      left: 0;
-      display: block;
-  }
-  .slick-track:before,
-  .slick-track:after
-  {
-      display: table;
-      content: '';
-  }
-  .slick-track:after
-  {
-      clear: both;
-  }
-  .slick-loading .slick-track
-  {
-      visibility: hidden;
-  }
-  
-  .slick-slide
-  {
-      display: none;
-      float: left;
-      height: 100%;
-      min-height: 1px;
-  }
-  [dir='rtl'] .slick-slide
-  {
-      float: right;
-  }
-  .slick-slide img
-  {
-      display: block;
-  }
-  .slick-slide.slick-loading img
-  {
-      display: none;
-  }
-  .slick-slide.dragging img
-  {
-      pointer-events: none;
-  }
-  .slick-initialized .slick-slide
-  {
-      display: block;
-  }
-  .slick-loading .slick-slide
-  {
-      visibility: hidden;
-  }
-  .slick-vertical .slick-slide
-  {
-      display: block;
-      height: auto;
-      border: 1px solid transparent;
-  }
-  .slick-arrow.slick-hidden {
-      display: none;
-  }
 
+  
 
 .embed-container {
     position: relative;
@@ -277,17 +131,5 @@ h2{
     z-index: 1000;
 }
 
-.card{
-    background: #000;
-    color: white;
-    margin-top: 200px;
-
-}
-.btn-outline-danger { 
-    background: #000;
-    border: 1px solid #131414;
-    
-
-}
 
 

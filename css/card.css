@@ -1,0 +1,34 @@
+*{
+    font-family: var(--font-family);
+}
+
+.card{
+    background: #000;
+    color: white;
+    
+
+}
+
+.card-title{
+    margin-top: 150px !important;
+}
+ .guada { 
+    background: black;
+    color: red;
+    border: 1px solid red ;
+    
+    
+
+}
+
+
+button.guada:hover {
+    background: red;
+    color: white;
+    
+}
+
+
+/*.btn-outline-danger .guada button:hover{
+    background: red;
+}*/
