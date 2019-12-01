@@ -145,5 +145,16 @@ h2{
     z-index: 1000;
 }
 
+.navbar-collapse{
+    font-weight: bold;
+}
 
-
+.red{
+    color: #EB0606;
+}
+#login-modal{
+    margin-top: 200px;
+}
+.modal-content{
+    background: rgba(0, 0, 0, 0.788)
+}
