@@ -19,11 +19,9 @@
    <script src="carousel.js"></script>
 
   <link rel="shortcut icon" href="img/Letralogo-1.png" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" charset="UTF-8"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
 
   
   <!--<script src="js/script.js"></script>-->
@@ -32,6 +30,14 @@
 </head>
 
 <body>
+
+
+
+
+
+
+
+
 
   <div class="ml-auto text-center ">
     <a href="#top" id="back-to-top" class="back-to-top-visible ">
@@ -92,7 +98,120 @@
           <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
+     
+      <!--a href="" >
+
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <!-- Button trigger modal --
+        <button type="button" class="btn  font-weight-bold guada" data-toggle="modal" data-target="#search-modal">Buscar</button>
+      </a>-->
+
+<!-------------------PRUEBA DE SECTION---------------------------->
+      
+    <section class="nav-buttons">
+      <div class="search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button type="button" class="btn  font-weight-bold guada">Buscar</button>
+      </div>
+      
+      
+      <div class="log-in" >
+          <button type="button" class="btn  font-weight-bold guada" data-toggle="modal" data-target="#login-modal">
+              Ingresar
+          </button>
+          <div class="modal" id="login-modal" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Inicia sesión</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email o número de teléfono">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1 "></label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                          </div>
+                          <div class="form-check">
+                            <button type="submit" class="btn  font-weight-bold guada">Iniciar sesión</button>
+                            <input type="checkbox" class="form-check-input mt-5" id="exampleCheck1">
+                            <label class="form-check-label mt-5" for="exampleCheck1">Recuérdame</label>
+                          </div>
+                        </form>
+                  </div>
+      </div>
+         
+                
+        
+    </section>
+<!-------------------------------------------FIN SECTION--> 
+    
+  
+  <!-- Modal --
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Buscar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum vel excepturi ut aut accusamus, ex similique repellendus ullam. Veniam natus deleniti necessitatibus sapiente neque corporis ducimus enim quis quae tenetur!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+      <!-- Button trigger modal --
+      <button type="button" class="btn  font-weight-bold guada" data-toggle="modal" data-target="#login-modal">
+    Ingresar
+  </button>
+  <!-- Modal --
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ingresar</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+           fgjhngj
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+  
+  
+  
+
+  <a href="reg-form.html">
+      <button type="button" class="btn font-weight-bold ml-2 guada">Registrarse</button>
+  </a>
+
+
+      <!--<form class="form-inline my-2 my-lg-0">
           <a href="">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
           
@@ -114,7 +233,7 @@
               
               <button type="button" class="btn font-weight-bold ml-2 guada">Registrarse</button>
           </a>
-        </form>
+        </form>-->
     
       
     </div>

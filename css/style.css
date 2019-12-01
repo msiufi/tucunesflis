@@ -138,3 +138,9 @@ h2{
 .red{
     color: #EB0606;
 }
+#login-modal{
+    margin-top: 200px;
+}
+.modal-content{
+    background: rgba(0, 0, 0, 0.788)
+}
