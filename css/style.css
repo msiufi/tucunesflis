@@ -135,3 +135,9 @@ h2{
     font-weight: bold;
 }
 
+#login-modal{
+    margin-top: 200px;
+}
+.modal-content{
+    background: rgba(0, 0, 0, 0.788)
+}
