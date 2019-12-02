@@ -68,16 +68,28 @@
           </li>
         </ul>
     
-      <section class="nav-buttons">
-        <div class="search">
-          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" />
-          <button type="button" class="btn  font-weight-bold guada">Buscar</button>
+      <div class="container">
+
+        <div class="row">
+        
+        <div class="search col-sm-4"></div>
+
+        <div class="search mx-4 col-sm-2">
+          <input type="search" placeholder="Buscar" aria-label="Search" />
         </div>
-        <div class="log-in" >
-          <button type="button" class="btn  font-weight-bold guada" data-toggle="modal" data-target="#login-modal">
+
+        <div class="search col-sm-1">
+            <button type="button" class="btn  font-weight-bold guada">
+              Buscar
+            </button>
+        </div>
+  
+        <div class="log-in col-sm-1" >
+          <button type="button" class="btn font-weight-bold guada" data-toggle="modal" data-target="#login-modal">
             Ingresar
           </button>
         </div>
+
         <div class="modal" id="login-modal" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -112,10 +124,19 @@
             </div>
           </div>
         </div>
-      </section>
-      <a href="reg-form.html">
-        <button type="button" class="btn font-weight-bold ml-2 guada">Registrarse</button>
-      </a>
+
+        <div class="col-sm-1">
+            <a href="reg-form.html">
+              <button type="button" class="btn font-weight-bold ml-2 guada">
+                Registrarse
+              </button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      
       <div class="ml-auto text-center ">
         <a href="#top" id="back-to-top" class="back-to-top-visible ">
           <span class="icon icon-up-open"></span>
