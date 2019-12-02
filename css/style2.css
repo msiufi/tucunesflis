@@ -1,13 +1,12 @@
 @import url('info.css');
 @import url('card.css');
 @import url('footer.css');
-@import url('trailer.css');
+@import url('trailer2.css');
 @import url('carousel-peq.css');
 @import url('btn-up.css');
 
-
 :root{
-    --font-family:'Fira Sans Extra Condensed', sans-serif;
+    --font-family: 'Signika', sans-serif;
 }
 
 
@@ -78,20 +77,6 @@ nav a {
 	animation: flash 1.5s;
 }
 
-a.up:active{
-    color:#000;
-}
-
-a.up:hover{
-    color:#000;
-    cursor: pointer;
-    }
-a.up:visited{
-    color:#000;
-}
-a.up:link{
-    color:#000;
-}
 @-webkit-keyframes flash {
 	0% {
 		opacity: .3;
@@ -146,16 +131,12 @@ h2{
     z-index: 1000;
 }
 
-.navbar-collapse{
-    font-weight: bold;
+
+hr {
+    color:red;
+    background-color: red;
 }
 
-.red{
-    color: #EB0606;
-}
-#login-modal{
-    margin-top: 200px;
-}
-.modal-content{
-    background: rgba(0, 0, 0, 0.788)
+.sinopsis{
+    color: #fff;
 }
