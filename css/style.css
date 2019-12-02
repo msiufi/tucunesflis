@@ -159,3 +159,13 @@ h2{
 .modal-content{
     background: rgba(0, 0, 0, 0.788)
 }
+.title{
+color: #CF0707;
+font-size: .75rem;
+background-color: #CF0707;
+padding: .5rem;
+text-transform: uppercase;
+}
+.texto{
+    color: #FDFDFD;
+}
