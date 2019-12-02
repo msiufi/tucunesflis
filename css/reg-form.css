@@ -1,3 +1,8 @@
+body{
+    background: black;
+    color: white;
+}
+
 .divider-text {
     position: relative;
     text-align: center;
