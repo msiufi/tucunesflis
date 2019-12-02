@@ -170,3 +170,6 @@ text-transform: uppercase;
 .texto{
     color: #FDFDFD;
 }
+.img-responsive{
+    width: 100%;
+}
