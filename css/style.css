@@ -5,8 +5,9 @@
 @import url('carousel-peq.css');
 @import url('btn-up.css');
 
+
 :root{
-    --font-family: 'Signika', sans-serif;
+    --font-family:'Fira Sans Extra Condensed', sans-serif;
 }
 
 
