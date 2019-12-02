@@ -4,9 +4,11 @@
 @import url('trailer.css');
 @import url('carousel-peq.css');
 @import url('btn-up.css');
+@import url('about.css');
+
 
 :root{
-    --font-family: 'Signika', sans-serif;
+    --font-family:'Fira Sans Extra Condensed', sans-serif;
 }
 
 
